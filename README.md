@@ -36,6 +36,7 @@
 - `GestSpace.ipynb` — основной рабочий Jupyter ноутбук с кодом и экспериментами.
 - `GestSpace.html` — сгенерированная HTML-версия ноутбука для быстрого просмотра без запуска.
 - `torch_GestureModel.pth` — файл с сохранённым состоянием обученной модели жестов (PyTorch).
+- 'envtorch.yml' - виртуальное окружение anaconda.
 
 ### Воспроизведение окружения
 
@@ -43,4 +44,4 @@
 
 ```bash
 conda env create -f environment.yml
-conda activate my_env_name
+conda activate envtorch.yml
